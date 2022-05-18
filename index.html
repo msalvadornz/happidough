@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>happi dough &mdash; an online bakery</title>
+    <meta name="description" content="baking that makes you whoa!">
+    <meta name="keywords" content="bread,cinnamon rolls,pandesal,coffee buns,kopi roti,pan de coco,pan de regla,kalihim,spanish bread,ube cheese-desal">
+    
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:wght@800|Pinyon+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XVJ664VVLZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XVJ664VVLZ');
+    </script>
+  </head>
+  <body>
+    
+    <!-- Fixed navbar -->
+    
+    <nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" title="Home">Home</a>
+        </div>
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#" data-nav-section="welcome">Welcome</a></li>
+            <!-- <li><a href="#" data-nav-section="specialties">Specialties</a></li> -->
+            <li><a href="#" data-nav-section="menu">Menu</a></li>
+            <!-- <li><a href="#" data-nav-section="reservation">Reservation</a></li> -->
+            <!-- <li><a href="#" data-nav-section="events">Events</a></li> -->
+            <!-- <li><a href="#" data-nav-section="contact">Contact</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flexslider" data-section="welcome">
+      <ul class="slides">
+        <li style="background-image: url(img/bg_1.jpg)" class="overlay" data-stellar-background-ratio="0.5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+                  <h1 class="primary-heading">Welcome</h1>
+                  <!-- <h3 class="secondary-heading"></h3> -->
+                  <!-- <p class="sub-heading"></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url(img/bg_2.jpg)" class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+                  <h1 class="primary-heading">Baking</h1>
+                  <h3 class="secondary-heading">That Makes You... Whoa!</h3>
+                  <!-- <p class="sub-heading"></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </li>
+        <li style="background-image: url(img/bg_3.jpg)" class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
+                  <h1 class="primary-heading">Enjoy</h1>
+                  <h3 class="secondary-heading">With Us</h3>
+                  <!-- <p class="sub-heading"></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="probootstrap-section probootstrap-bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 text-center probootstrap-animate">
+            <div class="probootstrap-heading dark">
+              <h1 class="primary-heading">Discover</h1>
+              <h3 class="secondary-heading">Our Store</h3>
+              <span class="seperator">* * *</span>
+            </div>
+            <p>Small home baking business at the heart of Hobsonville, Auckland. <br> We are home bakers and only accepting pre-orders for later pickup or delivery.</p>
+            <p><a href="#" class="probootstrap-custom-link">About Us</a></p>
+          </div>
+          <div class="col-md-6 col-md-push-1 probootstrap-animate">
+            <p><img src="img/img_ensaymada_1.jpg" alt="Cheesy Ensaymada" class="img-responsive"></p>
+          </div>
+        </div>
+        <!-- END row -->
+      </div>
+    </section>
+
+    <!-- 
+    <section class="probootstrap-section-bg overlay" style="background-image: url(img/bg_2.jpg);" data-stellar-background-ratio="0.5" data-section="specialties">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Discover</h2>
+              <h3 class="secondary-heading">Our Specialties</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  -->
+     <!-- probootstrap-bg-white -->
+    <!--
+    <section class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="probootstrap-cell-retro">
+            <div class="half">
+
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_pandesal.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Pandesal</h3>
+                  <p>Filipino bread rolls</p>
+                  <p class="piece-per-tray">18 pieces</p>
+                  <p class="price">$20.00</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell reverse probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_ube_cheesedesal.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Ube Cheese-desal</h3>
+                  <p class="piece-per-tray">15 pieces</p>
+                  <p>Bread rolls flavoured with purple yam and filled with melty cheese</p>
+                  <p class="price">$25.00</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_3.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Imported Salmon Steak</h3>
+                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam.</p>
+                  <p class="price">$20.99</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="half">
+
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_cinnamon_orig.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Original Glaze Cinnamon Rolls</h3>
+                  <p>Gooey soft rolls packed with a cinnamon brown sugar filling.</p>
+                  <p>12 pieces/tray</p>
+                  <p class="price">$25.00</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell reverse probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_5.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Tuna Roast Source</h3>
+                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam.</p>
+                  <p class="price">$25.99</p>
+                </div>
+              </div>
+              <div class="probootstrap-cell probootstrap-animate" data-animate-effect="fadeIn">
+                <div class="image" style="background-image: url(img/img_square_1.jpg);"></div>
+                <div class="text text-center">
+                  <h3>Fried Potatoes with Garlic</h3>
+                  <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam.</p>
+                  <p class="price">$32.99</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  -->
+    <section class="probootstrap-section-bg overlay" style="background-image: url(img/bg_4.jpg);"  data-stellar-background-ratio="0.5"  data-section="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Discover</h2>
+              <h3 class="secondary-heading">Our Menu</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section probootstrap-bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="menus">
+
+              <li>
+                <div class="probootstrap-heading.dark">
+                  <h3 class="secondary-heading">CINNAMON ROLLS</h3>
+                  <p class="bread-description">Gooey soft rolls packed with a cinnamon brown sugar filling</p>
+                  <p class="piece-per-tray">12 pieces</p>
+                </div>
+              </li>
+
+              <!-- ORIGINAL GLAZE -->
+              <li>
+                <figure class="image"><img src="img/img_square_cinnamon_orig.jpg" alt="Original Glaze Cinnamon Rolls"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Original Glaze</h3>
+                </div>
+              </li>
+              <!-- COOKIES 'N CREAM' -->
+              <li>
+                <figure class="image"><img src="img/img_square_cinnamon_cookies.jpg" alt="Cookies 'n Cream Cinnamon Rolls"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Cookies 'n Cream</h3>
+                </div>
+              </li>
+              <!-- COFFEE -->
+              <li>
+                <figure class="image"><img src="img/img_square_cinnamon_coffee.jpg" alt="Coffee Cinnamon Rolls"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Coffee</h3>
+                </div>
+              </li>
+              <!-- MOCHA -->
+              <li>
+                <figure class="image"><img src="img/img_square_cinnamon_mocha.jpg" alt="Mocha Cinnamon Rolls"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Mocha</h3>
+                </div>
+              </li>
+              <!-- PEANUT BUTTER -->
+              <li>
+                <figure class="image"><img src="img/img_square_cinnamon_peanut.jpg" alt="Peanut Butter Cinnamon Rolls"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Peanut Butter</h3>
+                </div>
+              </li>
+              <!-- NUTELLA -->
+              <li>
+                <figure class="image"><img src="img/img_square_cinnamon_nutella.jpg" alt="Nutella Cinnamon Rolls"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Nutella</h3>
+                </div>
+              </li>
+              <!-- SALTED CARAMEL -->
+              <li>
+                <figure class="image"><img src="img/img_square_cinnamon_caramel.jpg" alt="Salted Caramel Cinnamon Rolls"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Salted Caramel</h3>
+                </div>
+              </li>
+              <!-- RED VELVET -->
+              <li>
+                <figure class="image"><img src="img/img_square_cinnamon_velvet.jpg" alt="Red Velvet Cinnamon Rolls"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Red Velvet</h3>
+                </div>
+              </li>
+              <!-- MATCHA -->
+              <li>
+                <figure class="image"><img src="img/img_square_cinnamon_matcha.jpg" alt="Green Tea / Matcha Cinnamon Rolls"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Green Tea / Matcha</h3>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="menus">
+
+              <li>
+                <div class="probootstrap-heading.dark">
+                  <h3 class="secondary-heading">OTHER BREADS</h3>
+                </div>
+              </li>
+
+              <!-- PANDESAL -->
+              <li>
+                <figure class="image"><img src="img/img_square_pandesal.jpg" alt="Pandesal"></figure>
+                <div class="text">
+                  <span class="price">$20.00</span>
+                  <h3>Pandesal</h3>
+                  <p class="bread-description">Filipino bread rolls</p>
+                  <p class="piece-per-tray">18 pieces</p>
+                </div>
+              </li>
+              <!-- UBE CHEESE-DESAL -->
+              <li>
+                <figure class="image"><img src="img/img_square_ube_cheesedesal.jpg" alt="Ube-Cheesedesal"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Ube Cheese-desal</h3>
+                  <p class="bread-description">Bread rolls flavoured with purple yam and filled with melty cheese</p>
+                  <p class="piece-per-tray">15 pieces</p>
+                </div>
+              </li>
+              <!-- RED VELVET-DESAL -->
+              <li>
+                <figure class="image"><img src="img/img_square_redvelvetdesal.jpg" alt="Red Velvet-desal"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Red Velvet-desal</h3>
+                  <p class="bread-description">With a hint of chocolate flavour, gorgeous colour and cream cheese filling</p>
+                  <p class="piece-per-tray">15 pieces</p>
+                </div>
+              </li>
+              <!-- CORNED BEEF-DESAL -->
+              <li>
+                <figure class="image"><img src="img/img_square_cornedbeefdesal.jpg" alt="Corned Beef-desal"></figure>
+                <div class="text">
+                  <span class="price">$30.00</span>
+                  <h3>Corned Beef-desal</h3>
+                  <p class="bread-description">Bread rolls bursting with meaty corned beef</p>
+                  <p class="piece-per-tray">15 pieces</p>
+                </div>
+              </li>
+              <!-- KALIHIM -->
+              <li>
+                <figure class="image"><img src="img/img_square_kalihim.jpg" alt="Kalihim"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Kalihim</h3>
+                  <p class="bread-description">Soft bread stuffed with a red-coloured sweet pudding</p>
+                  <p class="piece-per-tray">15 pieces</p>
+                </div>
+              </li>
+              <!-- PAN DE BONETE WITH SULTANAS -->
+              <li>
+                <figure class="image"><img src="img/img_square_bonetesultanas.jpg" alt="Pan de Bonete with Sultanas"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Pan de Bonete with Sultanas</h3>
+                  <p class="bread-description">Bonnet-shaped dinner roll mixed with dried sultanas</p>
+                  <p class="piece-per-tray">12 pieces</p>
+                </div>
+              </li>
+              <!-- PAN DE COCO -->
+              <li>
+                <figure class="image"><img src="img/img_square_pandecoco.jpg" alt="Pan de Coco"></figure>
+                <div class="text">
+                  <span class="price">$30.00</span>
+                  <h3>Pan de Coco</h3>
+                  <p class="bread-description">Soft and fluffy bun with sweetened coconut filling</p>
+                  <p class="piece-per-tray">12 pieces</p>
+                </div>
+              </li>
+              <!-- COFFEE BUN -->
+              <li>
+                <figure class="image"><img src="img/img_square_coffeebun.jpg" alt="Coffee Bun / Kopi Roti"></figure>
+                <div class="text">
+                  <span class="price">$35.00</span>
+                  <h3>Coffee Bun / Kopi Roti</h3>
+                  <p class="bread-description">Pillowy soft bun with butter filling and coffee flavoured topping</p>
+                  <p class="piece-per-tray">12 pieces</p>
+                </div>
+              </li>
+              <!-- SPANISH BREAD -->
+              <li>
+                <figure class="image"><img src="img/img_square_spanishbread.jpg" alt="Spanish Bread"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Spanish Bread</h3>
+                  <p class="bread-description">Sweet filling, fully bread and crispy outer crust</p>
+                  <p class="piece-per-tray">15 pieces</p>
+                </div>
+              </li>
+              <!-- UBE SPANISH BREAD -->
+              <li>
+                <figure class="image"><img src="img/img_square_ubespanish.jpg" alt="Ube Spanish Bread"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Ube Spanish Bread</h3>
+                  <p class="bread-description">Purple yam-flavoured Spanish Bread</p>
+                  <p class="piece-per-tray">15 pieces</p>
+                </div>
+              </li>
+              <!-- CHEESE ROLLS -->
+              <li>
+                <figure class="image"><img src="img/img_square_cheeserolls.jpg" alt="Cheese Rolls"></figure>
+                <div class="text">
+                  <span class="price">$25.00</span>
+                  <h3>Cheese Rolls</h3>
+                  <p class="bread-description">Bread rolls filled with melty cheese</p>
+                  <p class="piece-per-tray">15 pieces</p>
+                </div>
+              </li>
+              <!-- ENSAYMADA -->
+              <li>
+                <figure class="image"><img src="img/img_square_ensaymada.jpg" alt="Ensaymada"></figure>
+                <div class="text">
+                  <span class="price">$15.00</span>
+                  <h3>Ensaymada</h3>
+                  <p class="bread-description">Filipino soft, sweet dough pastry covered with butter and sugar then topped with lots of grated cheese.</p>
+                  <p class="piece-per-tray">6 pieces</p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--    <section class="probootstrap-section-bg overlay" style="background-image: url(img/hero_bg_5.jpg);"  data-stellar-background-ratio="0.5" data-section="reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Booking</h2>
+              <h3 class="secondary-heading">Reserve A Table</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section probootstrap-bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 probootstrap-animate">
+            <form method="post" class="probootstrap-form">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="people">How Many People</label>
+                    <div class="form-field">
+                      <i class="icon icon-chevron-down"></i>
+                      <select name="people" id="people" class="form-control">
+                        <option value="#">1 people</option>
+                        <option value="#">2 people</option>
+                        <option value="#">3 people</option>
+                        <option value="#">4+ people</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="date">Date</label>
+                    <div class="form-field">
+                      <i class="icon icon-calendar"></i>
+                      <input type="text" id="date" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="time">Time</label>
+                    <div class="form-field">
+                      <i class="icon icon-clock"></i>
+                      <input type="text" id="time" class="form-control">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <div class="form-field">
+                      <i class="icon icon-user2"></i>
+                      <input type="text" id="name" class="form-control" placeholder="Your full name">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <div class="form-field">
+                      <i class="icon icon-mail"></i>
+                      <input type="text" id="email" class="form-control" placeholder="Your email address">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <div class="form-field">
+                      <i class="icon icon-phone"></i>
+                      <input type="text" id="phone" class="form-control" placeholder="Your phone">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                  <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-lg btn-primary btn-block">
+                </div>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="probootstrap-section-bg overlay" style="background-image: url(img/hero_bg_4.jpg);"  data-stellar-background-ratio="0.5" data-section="events">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center probootstrap-animate">
+            <div class="probootstrap-heading">
+              <h2 class="primary-heading">Upcoming</h2>
+              <h3 class="secondary-heading">Our Events</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 probootstrap-animate">
+            <div class="probootstrap-block-image">
+              <figure><img src="img/img_square_2.jpg" alt="Free Bootstrap Template by uicookies.com"></figure>
+              <div class="text">
+                <span class="date">June 29, 2017</span>
+                <h3><a href="#">Laboriosam Quod Dignissimos</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                <p class=""><a href="#" class="probootstrap-custom-link link-sm">Read More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 probootstrap-animate">
+            <div class="probootstrap-block-image">
+              <figure><img src="img/img_square_3.jpg" alt="Free Bootstrap Template by uicookies.com"></figure>
+              <div class="text">
+                <span class="date">June 29, 2017</span>
+                <h3><a href="#">Laboriosam Quod Dignissimos</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                <p class=""><a href="#" class="probootstrap-custom-link link-sm">Read More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 probootstrap-animate">
+            <div class="probootstrap-block-image">
+              <figure><img src="img/img_square_4.jpg" alt="Free Bootstrap Template by uicookies.com"></figure>
+              <div class="text">
+                <span class="date">June 29, 2017</span>
+                <h3><a href="#">Laboriosam Quod Dignissimos</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui tempore natus quos quibusdam soluta at.</p>
+                <p class=""><a href="#" class="probootstrap-custom-link link-sm">Read More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="probootstrap-section probootstrap-bg-white" data-section="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 text-center probootstrap-animate">
+            <div class="probootstrap-heading dark">
+              <h1 class="primary-heading">Contact</h1>
+              <h3 class="secondary-heading">Let's Chat</h3>
+            </div>
+            <p>Voluptatibus quaerat laboriosam fugit non Ut consequatur animi est molestiae enim a voluptate totam natus modi debitis dicta impedit voluptatum quod sapiente illo saepe explicabo quisquam perferendis labore et illum suscipit</p>
+          </div>
+          <div class="col-md-6 col-md-push-1 probootstrap-animate">
+            <form method="post" class="probootstrap-form">
+              <div class="form-group">
+                <label for="c_name">Your Name</label>
+                <div class="form-field">
+                  <input type="text" id="c_name" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="c_email">Your Email</label>
+                <div class="form-field">
+                  <input type="text" id="c_email" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="c_message">Your Message</label>
+                <div class="form-field">
+                  <textarea name="c_message" id="c_message" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="submit" name="c_submit" id="c_submit" value="Send Message" class="btn btn-primary btn-lg">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  -->
+
+    <section class="probootstrap-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 probootstrap-animate">
+            <div class="probootstrap-footer-widget">
+              <h3>Location</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <p> 85B Hobsonville Point Road <br> Hobsonville Auckland 0618</p>
+                </div>
+                <!-- <div class="col-md-6">
+                  <p> 85B Hobsonville Point Road <br> Hobsonville Auckland 0618</p>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 probootstrap-animate">
+            <div class="probootstrap-footer-widget">
+              <h3>Open Hours</h3>
+              <div class="row">
+                <div class="col-md-4">
+                  <p>Monday - Sunday <br> 8:30pm - 7:00pm</p>
+                </div>
+                <div class="col-md-4">
+                  <p>Available for Bulk Orders <br> Email or Call Us</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="probootstrap-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p class="copyright-text">&copy; 2022 <a href="https://uicookies.com/">uiCookies:Resto</a>. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-4">
+            <ul class="probootstrap-footer-social right">
+              <!-- <li><a href="#"><i class="icon-twitter"></i></a></li> -->
+              <li><a href="https://www.facebook.com/happidoughnz/"><i class="icon-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/happidough/"><i class="icon-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/custom.min.js"></script>
+
+  </body>
+</html>
